@@ -1,0 +1,118 @@
+/* CSS RESET */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+/* MY CSS */
+
+:root {
+  --primary: hsl(193, 38%, 86%);
+  --secondary: hsl(150, 100%, 66%);
+  --neutral-300: hsl(217, 19%, 38%);
+  --neutral-500: hsl(217, 19%, 24%);
+  --neutral-800: hsl(218, 23%, 16%);
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  background-color: var(--neutral-800);
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.b-advice-wrapper {
+  max-width: clamp(21.438rem, 18.498vw + 17.102rem, 33.75rem);
+  background-color: var(--neutral-500);
+  border-radius: 10px;
+  margin: 7.5rem 0 12.5rem 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: 1.5rem;
+  padding: 2.5rem 1.5rem 4rem 1.5rem;
+}
+
+.e-button {
+  all: unset;
+  position: absolute;
+  bottom: -15%;
+  background-color: var(--secondary);
+  padding: 1.25rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.e-button:hover {
+  box-shadow: 0px 0px 40px 0px rgb(83, 255, 170);
+}
+
+.e-title {
+  font-size: clamp(0.688rem, 0.188vw + 0.643rem, 0.813rem);
+  color: var(--secondary);
+  text-transform: uppercase;
+  letter-spacing: 3.46px;
+}
+
+.e-advice {
+  font-size: clamp(1.5rem, 0.376vw + 1.412rem, 1.75rem);
+  letter-spacing: -0.3px;
+  color: var(--primary);
+}
+
+@media (min-width: 37.5rem) {
+  .e-title {
+    letter-spacing: 4.09px;
+  }
+
+  .b-advice-wrapper {
+    margin: 0;
+  }
+}
