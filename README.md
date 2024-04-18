@@ -12,7 +12,7 @@ Users should be able to:
 
 ## Link
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Here](https://matbac85.github.io/advice-generator-app/)
 
 ## My process
 
