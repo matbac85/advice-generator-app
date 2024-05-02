@@ -1,25 +1,30 @@
-# Frontend Mentor - Advice generator app solution
+# Advice Generator App
 
-This is a solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+![Design preview for the Advice generator app coding challenge](./design/desktop-preview.jpg)
 
-## The challenge
+## Overview
 
-Users should be able to:
+This advice generator app was developed as a solution to the Frontend Mentor challenge. The challenge required building an app that utilizes the Advice Slip API to generate pieces of advice for users. The app should closely match the provided design and include hover states for interactive elements.
 
-- View the optimal layout for the app depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Generate a new piece of advice by clicking the dice icon
+## Features
 
-## Link
+- Users can view the optimal layout for the app depending on their device's screen size.
+- Hover states are implemented for all interactive elements on the page.
+- Users can generate a new piece of advice by clicking the dice icon.
 
-- Solution URL: [Here](https://matbac85.github.io/advice-generator-app/)
+## Expected Behavior
 
-## My process
+- Users should be able to view the optimal layout for the app depending on their device's screen size.
+- Hover states should be implemented for all interactive elements on the page.
+- Users should be able to generate a new piece of advice by clicking the dice icon.
 
-### Built with
+## Technologies Used
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- Mobile-first workflow
-- BEM
+- HTML
+- CSS
+- JavaScript
+
+## Links
+
+- Solution URL: [Advice Generator App Solution](https://matbac85.github.io/advice-generator-app/)
+- Frontend Mentor Profile: [My Frontend Mentor Profile](https://www.frontendmentor.io/profile/matbac85)
